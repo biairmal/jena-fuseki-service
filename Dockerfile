@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD "jena-fuseki/fuseki-server" -port=$PORT
+CMD "/jena-fuseki/fuseki-server" --port=$PORT
